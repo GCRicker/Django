@@ -1,1 +1,7 @@
+Confirm (venv)
+cd myclub_website
 python manage.py runserver
+
+After a model change:
+    python manage.py makemigrations
+    python manage.py migrate
